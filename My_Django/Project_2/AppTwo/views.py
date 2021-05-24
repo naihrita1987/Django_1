@@ -7,4 +7,5 @@ def index(request):
     my_dict = {"insert_me": "This is my new views.."}
     return render(request,"help.html",context=my_dict)
     #I have made some changes 
+    #I have made another changes
 
